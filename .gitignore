@@ -1,0 +1,19 @@
+.DS_Store
+**/.DS_Store
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data and logs
+data/
+uploads/
+backups/
+logs/
+*.log
+
+# Node.js build artifacts
+node_modules/
+dist/
+coverage/
